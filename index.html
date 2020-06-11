@@ -39,7 +39,7 @@
                     <div class="row align-items-center justify-content-between no-gutters">
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
-                                <a href = "index.html" style="margin: 1.5%;">
+                                <a href = "index.html" style="">
                                     <img src = "img/logo.png" id="headerImg" >
                                  </a>
                             </div>
@@ -49,7 +49,7 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="#schedule">schedule</a></li>
-                                        <li><a href="#statement">mission statement</a></li>
+                                        <li><a href="#mission-statement">mission statement</a></li>
                                         <li><a href="#speakers">speakers</a></li>
                                         <li><a href="#sponsors">sponsors</a></li>
                                         <li><a href="#faq">faq</a></li>
@@ -75,17 +75,18 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area slider_bg_1 animated zoomIn delay-1s" style="background-image: url('img/blob.png');
-  background-repeat: no-repeat;
-  background-size: 40%; background-position: 25%;" >
-        <div class="slider_text" >
-            <div class="container">
-                <div class="position_relv">
-                    <div class="row">
+    <div class="slider_area slider_bg_1" >
+        <div class="slider_text">
+            <div class="container" >
+                <div class="position_relv" >
+                    <div class="row" >
                         <div class="col-xl-9">
-                            <div class="title_text animated zoomIn delay-2s">
+                            <div class="title_text animated zoomIn delay-2s" style="height: auto; background-image:     url('img/blob.png');
+  background-repeat: no-repeat;
+  background-size: contain; padding-top:5%; padding-bottom: 5%;" >
+
                                 <h3 style = "margin-bottom: 10px;">hackswiftly II </h3>
-                                <h3 style = "font-size:30px; padding-top: -400px;">inspiring students in computer science!</h3>
+                                <h3 style = "font-size:30px;">inspiring students to pursue computer science!</h3>
                                 <a href="#" class="boxed-btn-white">Register For Our Event</a>
                             </div>
                         </div>
@@ -156,108 +157,22 @@
     <!-- about_area_end -->
 
     <!-- speakers_start -->
-    <div class="speakers_area">
-        <h1 class="horizontal_text d-none d-lg-block">
-            Speakers
-        </h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="serction_title_large mb-95 animated zoomIn">
-                        <h3>
-                            Speakers
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-5 col-md-6">
-                    <div class="single_speaker">
-                        <div class="speaker_thumb">
-                            <img src="img/speakers/1.png" alt="">
-                            <div class="hover_overlay">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="speaker_name text-center">
-                            <h3>Jonson Miller</h3>
-                            <p>Creative Director</p>
-                        </div>
-                    </div>
-                    <div class="single_speaker">
-                        <div class="speaker_thumb">
-                            <img src="img/speakers/3.png" alt="">
-                            <div class="hover_overlay">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="speaker_name text-center">
-                            <h3>Albert Jackey</h3>
-                            <p>Product Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 offset-xl-2 col-md-6">
-                    <div class="single_speaker">
-                        <div class="speaker_thumb">
-                            <img src="img/speakers/2.png" alt="">
-                            <div class="hover_overlay">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="speaker_name text-center">
-                            <h3>Marked Macau</h3>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="single_speaker">
-                        <div class="speaker_thumb">
-                            <img src="img/speakers/1.png" alt="">
-                            <div class="hover_overlay">
-                                <div class="social_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="speaker_name text-center">
-                            <h3>Kelvin Cooper</h3>
-                            <p>Art Director</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- speakers_end-->
 
     <!-- event_area_start -->
-    <div class="event_area">
-        <h1 class="vr_text d-none d-lg-block">Event Schedule</h1>
+    <div class="event_area" id = "mission-statement">
+        <h1 class="vr_text d-none d-lg-block " style = "color: #05C49A; border: 13px solid #05C49A;">mission statement</h1>
         <div class="container">
             <div class="double_line">
                 <div class="row">
                     <div class="col-xl-3 col-lg-3">
                         <div class="date">
-                            <h3>08 Sep 2019</h3>
+                            <h3 style = "font-size: 2.5em; color: #05C49A;">our core values</h3>
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-9">
                         <div class="single_speaker">
-                            <img src="img/speakers/seaker1.png" alt="">
+                            <img src="img/leaf.png" style = "width: 100px;"alt="">
                             <div class="speaker-name">
                                 <div class="heading d-flex justify-content-between align-items-center">
                                     <span>Jonson Miller</span>
@@ -272,7 +187,7 @@
                             </div>
                         </div>
                         <div class="single_speaker">
-                            <img src="img/speakers/seaker2.png" alt="">
+                            <img src="img/tree.png" style = "width: 100px;" alt="">
                             <div class="speaker-name">
                                 <div class="heading d-flex justify-content-between align-items-center">
                                     <span>Albert Jackey</span>
@@ -287,7 +202,7 @@
                             </div>
                         </div>
                         <div class="single_speaker">
-                            <img src="img/speakers/seaker3.png" alt="">
+                            <img src="img/lightbulb.png" style = "width: 100px;" alt="">
                             <div class="speaker-name">
                                 <div class="heading d-flex justify-content-between align-items-center">
                                     <span>Alvi Nourin</span>
