@@ -33,14 +33,14 @@ html {
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .event_area .double_line::before, .event_area .double_line::after {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
-  background: #000;
+  background: #00283d;
   /* Old browsers */
   
   /* IE6-9 */
 }
 @font-face {
     font-family: 'gt-wal'; /*a name to be used later*/
-    src: url('/Users/viditagrawal/Desktop/HTML/hackswiftly-2-website/fonts/GT-Walsheim-Pro-Trial-Medium.otf'); /*URL to font*/
+    src: url('../fonts/GT-Walsheim-Pro-Trial-Medium.otf'); /*URL to font*/
 }
 
 
@@ -150,7 +150,7 @@ p {
   color: #808080;
   margin-bottom: 13px;
   font-family: gt-wal;
-  src: url("../../fonts/GT-Walsheim-Pro-Trial-Medium.otf");
+  src:url('../fonts/GT-Walsheim-Pro-Trial-Medium.otf');
 }
 
 /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
@@ -3371,13 +3371,13 @@ h6 {
 
 /* line 353, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table-wrap {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 /* line 357, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
-  padding: 15px 0px 30px 0px;
+  padding: 15px 0px 15px 0px;
   min-width: 800px;
 }
 
@@ -3388,17 +3388,17 @@ h6 {
 }
 
 /* line 365, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.progress-table .country {
-  width: 28.07%;
+.progress-table .date {
+  width: 20.07%;
 }
 
 /* line 368, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.progress-table .visit {
-  width: 19.74%;
+.progress-table .time {
+  width: 27.74%;
 }
 
 /* line 371, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
-.progress-table .percentage {
+.progress-table .event {
   width: 40.36%;
   padding-right: 50px;
 }
@@ -3410,9 +3410,9 @@ h6 {
 
 /* line 377, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-head .serial,
-.progress-table .table-head .country,
-.progress-table .table-head .visit,
-.progress-table .table-head .percentage {
+.progress-table .table-head .date,
+.progress-table .table-head .time,
+.progress-table .table-head .event {
   color: #415094;
   line-height: 40px;
   text-transform: uppercase;
@@ -3428,9 +3428,9 @@ h6 {
 
 /* line 391, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 .progress-table .table-row .serial,
-.progress-table .table-row .country,
-.progress-table .table-row .visit,
-.progress-table .table-row .percentage {
+.progress-table .table-row .date,
+.progress-table .table-row .time,
+.progress-table .table-row .event {
   display: flex;
   align-items: center;
 }

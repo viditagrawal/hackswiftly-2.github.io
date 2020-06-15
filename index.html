@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -81,10 +82,10 @@
                 <div class="position_relv" >
                     <div class="row" >
                         <div class="col-xl-9">
-                            <div class="title_text animated zoomIn delay-2s" style="height: auto; background-image:     url('img/blob.png');
-  background-repeat: no-repeat;
-  background-size: contain; padding-top:5%; padding-bottom: 5%;" >
-
+                            <div data-aos="zoom-in" data-aos-duration="1500" class="title_text"  >
+                                    <!-- style=" background-image: url('img/blob.png'); background-size: 60%; background-repeat: no-repeat; background-position: top left;" -->
+<!--                                 <img style = "max-width: 100%; height: auto; background-color: black; " src = "img/blob.png" id="headerImg" >
+ -->
                                 <h3 style = "margin-bottom: 10px;">hackswiftly II </h3>
                                 <h3 style = "font-size:30px;">inspiring students to pursue computer science!</h3>
                                 <a href="#" class="boxed-btn-white">Register For Our Event</a>
@@ -121,10 +122,102 @@
     </div>
     <!-- slider_area_end -->
 
+<div class="whole-wrap event-area" id="schedule">
+        <div class="container box_1170">
+            <div class="section-top-border ">
+                <h1 class="mb-30 text-center"  style = "font-size: 3em; color: #05C49A;" data-aos="fade-up" data-aos-duration="750">Our Schedule</h1>
+                <div class="progress-table-wrap" data-aos="fade-up">
+                    <hr style="width: 50%; height: 3px;background-color:#00283d;opcaity: 0.5;"></hr>
+                    <h1 class="mb-30 mt-30 text-center" style = "font-size: 2em;">Before the Event</h1>
+                    <div class="progress-table">
+                        <div class="table-head">
+                            <div class="serial">#</div>
+                            <div class="date">Date</div>
+                            <div class="time">Time</div>
+                            <div class="event">Event</div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">01</div>
+                            <div class="date">June 29th</div>
+                            <div class="time">10:30 AM</div>
+                            <div class="event">Sign Ups Open
+                            </div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">02</div>
+                            <div class="date">July 4th</div>
+                            <div class="time">12:00 PM</div>
+                            <div class="event">Sign Ups Close
+                            </div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">03</div>
+                            <div class="date">July 18th</div>
+                            <div class="time">12:00 PM</div>
+                            <div class="event">Theme is Revealed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-table-wrap" data-aos="fade-up" data-aos-duration="750">
+                    <hr style="width: 50%; height: 3px;background-color:#00283d;opcaity: 0.5;"></hr>
+                    <h1 class="mb-30 text-center" style = "font-size: 2em;">The Hack</h1>
+                    <div class="progress-table">
+                        <div class="table-head">
+                            <div class="serial">#</div>
+                            <div class="date">Date</div>
+                            <div class="time">Time</div>
+                            <div class="event">Event</div>
+                        </div>
+                       <div class="table-row " >
+                            <div class="serial">04</div>
+                            <div class="date">July 20th</div>
+                            <div class="time">10:30 AM</div>
+                            <div class="event">Coding Starts
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-table-wrap" data-aos="fade-up" data-aos-duration="750">
+                    <hr style="width: 50%; height: 3px;background-color:#00283d;opcaity: 0.5;"></hr>
+                    <h1 class="mb-30 text-center" style = "font-size: 2em;">Post-Event</h1>
+                    <div class="progress-table">
+                        <div class="table-head">
+                            <div class="serial">#</div>
+                            <div class="date">Date</div>
+                            <div class="time">Time</div>
+                            <div class="event">Event</div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">01</div>
+                            <div class="date">June 29th</div>
+                            <div class="time">10:30 AM</div>
+                            <div class="event">Sign Ups Open
+                            </div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">02</div>
+                            <div class="date">July 4th</div>
+                            <div class="time">12:00 PM</div>
+                            <div class="event">Sign Ups Close
+                            </div>
+                        </div>
+                        <div class="table-row " >
+                            <div class="serial">03</div>
+                            <div class="date">July 18th</div>
+                            <div class="time">12:00 PM</div>
+                            <div class="event">Theme is Revealed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- about_area_start -->
-    <div class="about_area" id="schedule">
+    <div class="about_area">
         <div class="shape-1 d-none d-xl-block">
             <img src="img/about/shap1.png" alt="">
         </div>
@@ -142,13 +235,13 @@
                     <div class="about_info">
                         <div class="section_title">
                             <span class="sub_heading">Welcome To</span>
-                            <h3>The Biggest Design <br>
+                            <h3 >The Biggest Design <br>
                                 Conference of the <br>
                                 Year 2019</h3>
                         </div>
-                        <p>Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god.
+                        <p >Our set he for firmament morning sixth subdue darkness creeping gathered divide our let god.
                             moving. Moving in fourth air night bring upon you’re it beast.</p>
-                        <a href="#" class="boxed-btn-red">Learn More</a>
+                        <a href="#" data-aos="fade-up" class="boxed-btn-red">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -401,6 +494,8 @@
     </div>
     <!-- faq_area_end -->
 
+
+    
     <!-- footer_start -->
     <footer class="footer footer_bg_1">
         <div class="circle_ball d-none d-lg-block">
@@ -501,6 +596,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
