@@ -889,6 +889,10 @@ h3 {
     text-align:center;
     width:200px;
   }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 22px;
+  }
 }
 @media (min-width: 1224px) and (max-width: 1439px) {
   /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1003,49 +1007,9 @@ h3 {
 
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 15px 3px 15px 3px;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 1501px) and (max-width: 1919px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 6px 35px 6px;
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1920px) and (max-width: 2559px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 15px 3px 15px 3px;
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 2560px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 30px;
-  }
-}
 
 .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
+    padding: 20px 8px 20px 8px;
   }
 
 
@@ -1070,7 +1034,7 @@ h3 {
 
 /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #0181F5;
+  color: #ADD3F6;
 }
 
 /* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1103,7 +1067,7 @@ h3 {
 
 /* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
-  padding: 10px 15px;
+  padding: 0px 10px;
   position: inherit;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -5326,7 +5290,7 @@ h6 {
 
 /* line 1126, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top {
-  padding-top: 10px;
+  padding-top: 0px;
   border-top: 0px solid #ffffff;
 }
 
