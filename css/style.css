@@ -542,6 +542,7 @@ h3 {
   }
 }
 
+
 /* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
 .boxed-btn-white:hover {
   background: #000;
@@ -833,80 +834,174 @@ h3 {
 }
 
 
-@media (min-width: 1922px) and (max-width: 2561px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img{
-    padding-left: 20px;
-    width:300px;
-  }
-}
-@media (min-width: 1682px) and (max-width: 1921px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img{
-    padding-right: 100px;
-    width:290px;
-  }
-}
-@media (min-width: 1442px) and (max-width: 1681px) {
-  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img{
-    padding-right: 100px;
-    width:330px;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1441px) {
+
+@media (min-width: 2560px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img a img{
 
-    padding-right: 270px;
-    width:440px;
+
+    width:200px;
+    text-align: center;
+  }
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
   }
 }
-@media (min-width: 1200px) and (max-width: 1441px) {
+
+@media (min-width: 1920px) and (max-width: 2559px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img a img{
+
+    width:200px;
+    text-align: center;
+  }
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
+  }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 28px;
+  }
+}
+
+
+
+
+@media (min-width: 1680px) and (max-width: 1919px) {
+  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img a img{
+
+    width:200px;
+    text-align: center;
+
+  }
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
+  }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img a img{
+
+    width:200px;
+    text-align: center;
+  }
+  .header-area .main-header-area.sticky {
+
+    padding-right: 25px;
+    padding-left: 55px;
+
+  }
   .header-area .main-header-area {
 
     padding-right: 25px;
     padding-left: 55px;
 
   }
-}
-
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img {
-    width: 200px;
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
+  }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 22px;
   }
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+@media (min-width: 1224px) and (max-width: 1439px) {
+  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:150px;
+  }
+  .header-area .main-header-area .logo-img a img{
+
+    width:150px;
+    text-align: center;
+  }
+  .header-area .main-header-area .buy_ticket .boxed-btn-white {
+    font-size:10px;
+  }
   .header-area .main-header-area {
-    padding-left: ;
+    padding-right: 25px;
+    padding-left: 55px;
+  }
+  .header-area .main-header-area.sticky {
+    padding-right: 25px;
+    padding-left: 55px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1223px) {
+  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:150px;
+  }
+  .header-area .main-header-area .logo-img a img{
+
+    width:150px;
+    text-align: center;
+  }
+  .header-area .main-header-area .buy_ticket .boxed-btn-white {
+    font-size:10px;
+  }
+  .header-area .main-header-area {
+    padding-right: 55px;
+    padding-left: 65px;
+  }
+  .header-area .main-header-area.sticky {
+    padding-right: 55px;
+    padding-left: 65px;
   }
 }
 
-@media (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img {
-    width: 200px;
+
+
+@media (min-width: 375px) and (max-width: 992px) {
+  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img a img{
+
+    width:200px;
+    text-align: center;
+  }
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
+  }
+  .header-area .main-header-area {
+    padding-right: 15px;
+    padding-left: 35px;
+  }
+  .header-area .main-header-area.sticky {
+    padding-right: 15px;
+    padding-left: 35px;
   }
 }
-@media (max-width: 767px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area  {
-    padding-left: 20px;
-    padding-right: 20px;
+
+@media (min-width: 320px) and (max-width: 374px) {
+  /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header-area .main-header-area .logo-img a img{
+
+    width:200px;
+    text-align: center;
+  }
+  .header-area .main-header-area.sticky .logo-img a img{
+    text-align:center;
+    width:200px;
   }
 }
 
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img a img {
-    width: 0px;
-  }
-}
+
+
+
 
 /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
@@ -932,49 +1027,9 @@ h3 {
 
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 15px 3px 15px 3px;
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
-    font-size: 22px;
-  }
-}
-
-@media (min-width: 1501px) and (max-width: 1919px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 6px 35px 6px;
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1920px) and (max-width: 2559px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    padding: 15px 3px 15px 3px;
-    font-size: 28px;
-  }
-}
-
-@media (min-width: 2560px) {
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area .main-menu ul li a {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 30px;
-  }
-}
 
 .header-area .main-header-area .main-menu ul li a {
-    padding: 35px 8px 35px 8px;
+    padding: 20px 8px 20px 8px;
   }
 
 
@@ -999,7 +1054,7 @@ h3 {
 
 /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #0181F5;
+  color: #ADD3F6;
 }
 
 /* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -1032,7 +1087,7 @@ h3 {
 
 /* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
-  padding: 10px 15px;
+  padding: 0px 10px;
   position: inherit;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -1079,57 +1134,16 @@ h3 {
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  padding: 0 150px;
+
 }
 
-@media (max-width: 767px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding: 10px 0;
-  }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding: 10px 0;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding: 0 50px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding-left: 55px;
-    padding-right: 25px;
-  }
-}
-@media (min-width: 1501px) and (max-width: 1921px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-}
-@media (min-width: 1922px) and (max-width: 2561px) {
-  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
-  .header-area .main-header-area.sticky {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-}
 
 
 
 /* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu {
-  padding: 0;
+  padding-left: 0px;
 }
 
 /* line 172, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -2230,8 +2244,9 @@ h3 {
 @media (min-width: 501px) and (max-width: 1025px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
   .event_area .vr_text {
-    font-size:120px;
-    color: #000;
+    font-size:35px;
+    color: #05C49A;
+    margin-left:130px;
   }
 }
 @media (min-width: 1021px) and (max-width: 1438px) {
@@ -5305,7 +5320,7 @@ h6 {
 
 /* line 1126, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .single-post-area .navigation-top {
-  padding-top: 10px;
+  padding-top: 0px;
   border-top: 0px solid #ffffff;
 }
 

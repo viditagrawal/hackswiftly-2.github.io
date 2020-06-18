@@ -63,9 +63,10 @@ items:1,
 autoplay:true,
 navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
   nav:false,
-dots:false,
+dots:true,
+center:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 3200,
   responsive:{
       0:{
           items:2,

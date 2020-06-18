@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -32,7 +33,24 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
+
     <!-- header-start -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+     <script>
+                            //initialize tiny slider    
+                            let slider = tns({
+                                container: ".tartist-tiny-slider",
+                                items: 3,
+                                slideBy: "page",
+                                autoplay: true,
+                                autoplayButtonOutput: false,
+                                loop: true,
+                                mouseDrag: true,
+                                controls: false,
+                                navPosition: "bottom",
+                                nav: true,
+                             });
+                        </script>
     <header>
         <div class="header-area" data-aos="fade-down" data-aos-duration="1500">
             <div id="sticky-header" class="main-header-area ">
@@ -42,6 +60,7 @@
                             <div class="logo-img" >
                                 <a href = "index.html" style="">
                                     <img src = "img/logo.png" id="headerImg" data-aos="zoom-in" data-aos-duration="1500">
+
                                  </a>
                             </div>
                         </div>
@@ -53,16 +72,17 @@
                                         <li><a href="#mission-statement">mission statement</a></li>
                                         <li><a href="#speakers">speakers</a></li>
                                         <li><a href="#sponsors">sponsors</a></li>
+                                        <li><a href="#faq">team</a></li>
                                         <li><a href="#faq">faq</a></li>
 
-                                        <li><a href="contact.html">contact</a></li>
+
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                             <div class="buy_ticket">
-                                <a href="#" class="boxed-btn-white">sign up now</a>
+                                <a href="#" class="boxed-btn-white" style= "">sign up now</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -87,7 +107,7 @@
 <!--                                 <img style = "max-width: 100%; height: auto; background-color: black; " src = "img/blob.png" id="headerImg" >
  -->
                                 <h3 style = "margin-bottom: 10px;">hackswiftly II </h3>
-                                <h3 style = "font-size:30px;">inspiring students to pursue computer science!</h3>
+                                <h3 style = "font-size:30px;">inspiring students to incite change with computer science</h3>
                                 <a href="#" class="boxed-btn-white">Register For Our Event</a>
                             </div>
                         </div>
@@ -471,16 +491,21 @@
     <!-- resister_book_end -->
 
     <!-- brand_area_start -->
+     <div class="event_area" >
+        <h1 class =" vr_text" style = "margin-top: 100px" >faq</h1>
+    </div>
     <div class="brand_area">
         <div class="container">
+
             <div class="row">
                 <div class="col-xl-12">
+
                     <div class="brand_active owl-carousel">
                         <div class="single_brand text-center">
                             <img src="img/barnd/1.png" alt="">
                         </div>
                         <div class="single_brand text-center">
-                            <img src="img/barnd/2.png" alt="">
+                            <a href = "https://hackswiftly.org"><img src="img/barnd/2.png" alt=""> </a>
                         </div>
                         <div class="single_brand text-center">
                             <img src="img/barnd/3.png" alt="">
@@ -494,6 +519,10 @@
                         <div class="single_brand text-center">
                             <img src="img/barnd/6.png" alt="">
                         </div>
+                    
+
+
+
                     </div>
                 </div>
             </div>
@@ -565,6 +594,21 @@
          </div>
      
     </div>
+       <div class="owl-carousel owl-theme">
+            <div class="item"><h4>1</h4></div>
+            <div class="item"><h4>2</h4></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
+            <div class="item"><h4>6</h4></div>
+            <div class="item"><h4>7</h4></div>
+            <div class="item"><h4>8</h4></div>
+            <div class="item"><h4>9</h4></div>
+            <div class="item"><h4>10</h4></div>
+            <div class="item"><h4>11</h4></div>
+            <div class="item"><h4>12</h4></div>
+        </div>
+
     <!-- faq_area_Start -->
     <div class="faq_area">
         <div class="container">
