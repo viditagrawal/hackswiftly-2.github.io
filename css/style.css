@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
+
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -97,6 +96,14 @@ a,
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.zoom {
+  transition: transform 1s;
+}
+.zoom:hover {
+   transform: scale(1.05);
+   opacity: .85;
+}
+
 
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 a:focus,
@@ -455,7 +462,7 @@ h3 {
   color: #000;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -488,7 +495,7 @@ h3 {
   color: #FF0000;
   display: inline-block;
   padding: 16px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -521,7 +528,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -546,7 +553,7 @@ h3 {
   background-color: black;
   display: inline-block;
   padding: 16px 43px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -589,7 +596,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   margin-bottom: 22px;
 }
 
@@ -607,7 +614,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   margin-bottom: 22px;
 }
 
@@ -849,12 +856,18 @@ h3 {
 }
 
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+.header-area .main-header-area {
+  padding-left: 90px;
+  padding-right: 90px;
+  
+}
 
 
 
 @media (min-width: 2560px) {
   /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img a img{
+
 
     width:200px;
     text-align: center;
@@ -876,6 +889,10 @@ h3 {
     text-align:center;
     width:200px;
   }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 28px;
+  }
 }
 
 
@@ -892,6 +909,10 @@ h3 {
   .header-area .main-header-area.sticky .logo-img a img{
     text-align:center;
     width:200px;
+  }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 22px;
   }
 }
 
@@ -1028,10 +1049,9 @@ h3 {
 .header-area .main-header-area .main-menu ul li a {
   color: #000;
 
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
-  padding: 35px 23px 35px 23px;
-  font-family: "Poppins", sans-serif;
+  padding: 35px 23px 35px 20px;
   position: relative;
 
 }
@@ -1605,7 +1625,7 @@ h3 {
 
 /* line 52, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_thumb .exprience span {
-  font-family: "Poppins", sans-serif;
+  font-family: 'gt-wal';
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -1885,7 +1905,7 @@ h3 {
   height: 100%;
   left: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(5, 196, 154, 0.5);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2010,6 +2030,16 @@ h3 {
     display: none;
   }
 }
+
+    .largeSponsor{
+      height: 5em;
+      margin: .8em;
+    }
+
+    .smallSponsor{
+      height: 4em;
+      margin: .8em;
+    }
 
 /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area {
