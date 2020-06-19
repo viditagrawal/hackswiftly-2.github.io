@@ -62,34 +62,12 @@ $('.brand_active').owlCarousel({
 items:1,
 autoplay:true,
 navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-  nav:false,
+  nav:true,
 dots:true,
 center:false,
 autoplayHoverPause: true,
-autoplaySpeed: 3200,
-  responsive:{
-      0:{
-          items:2,
-          dots:false,
-          nav:false,
-      },
-      767:{
-          items:4,
-          dots:false,
-          nav:false,
-      },
-      992:{
-          items:5,
-          nav:false
-      },
-      1200:{
-          items:6,
-          nav:false
-      },
-      1500:{
-          items:6
-      }
-  }
+autoplaySpeed: 4000,
+  
 });
 
 // count_dwon

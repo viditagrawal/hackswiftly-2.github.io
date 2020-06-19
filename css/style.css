@@ -29,6 +29,24 @@ html {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
   /* IE6-9 */
 }
+.faq-container {
+    display: flex;
+    align-items: center;
+    height: 26em;
+    padding: 3em 2em;
+}
+
+@media (min-width: 576px) {
+    .faq-container {
+        height: 20em;
+    }
+}
+
+@media (min-width: 992px) {
+    .faq-container {
+        height: 15em;
+    }
+}
 
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .event_area .double_line::before, .event_area .double_line::after {
@@ -57,7 +75,7 @@ html {
 /* Large Mobile :480px. */
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 body {
-  font-family: "gt-wal";
+
   font-weight: normal;
   font-style: normal;
 }
@@ -298,7 +316,18 @@ h3 {
 .pt-120 {
   padding-top: 120px;
 }
-
+.faq-question {
+  color: #05C49A;
+  font-size: 2.4em;
+}
+.faq-answer {
+  font-size: 1.5em;
+  
+}
+.exclaim {
+  font-family: "Arial", sans-serif;
+  font-size: 1.2em;
+}
 /* button style */
 /* line 188, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div {
@@ -2010,7 +2039,7 @@ h3 {
 .brand_area .brand_active .single_brand img {
   width: auto;
   display: inline-block;
-  filter: contrast(0);
+
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2312,6 +2341,20 @@ h3 {
   bottom: 0;
   left: 0;
 }
+.event_area .line {
+   position: absolute;
+  content: "";
+  width: 100%;
+  height: 0px;
+  bottom: 0;
+  left: 0;
+  background: #00283d;
+  position: relative;
+  z-index: 9;
+  padding-top: -1px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
 
 /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .date h3 {
@@ -2345,6 +2388,7 @@ h3 {
     margin-bottom: 30px;
   }
 }
+
 
 /* line 77, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
 .event_area .single_speaker img {
@@ -4565,6 +4609,7 @@ h6 {
 .causes_slider .owl-dots {
   text-align: center;
   margin-top: 80px;
+  color:#fff;
 }
 
 /* line 267, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
