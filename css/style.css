@@ -4636,25 +4636,7 @@ h6 {
 /* Causes Area css
 ============================================================================================ */
 /* line 263, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.causes_slider .owl-dots {
-  text-align: center;
-  margin-top: 80px;
-  color:#fff;
-}
 
-/* line 267, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.causes_slider .owl-dots .owl-dot {
-  height: 14px;
-  width: 14px;
-  background: #eeeeee;
-  display: inline-block;
-  margin-right: 7px;
-}
-
-/* line 274, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
-.causes_slider .owl-dots .owl-dot:last-child {
-  margin-right: 0px;
-}
 
 /* line 285, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
 .causes_item {
@@ -4693,6 +4675,31 @@ h6 {
   bottom: 0px;
   color: #fff;
   padding: 0px 5px;
+}
+.owl-dot span {
+background-color: gray;
+color: gray;
+width: 0px;
+height: 0px;
+}
+.owl-dot {
+     width: 60px;
+     height: 6px;
+     background-color: gray;
+
+     margin-right: 5px;
+     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+
+    
+}
+.owl-dot:hover {
+  background-color: #05C49A;
+}
+.owl-dot.active {
+  background-color: #05C49A;
+}
+.owl-dots {
+      text-align:center;
 }
 
 /* line 320, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_blog.scss */
