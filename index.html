@@ -655,7 +655,11 @@
 
   <script src="js/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+        disable: 'mobile',
+
+        once: true
+    });
   </script>
 
 </body>
