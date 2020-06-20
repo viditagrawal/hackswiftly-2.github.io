@@ -1891,19 +1891,20 @@ h3 {
 .speakers_area .single_speaker .speaker_thumb {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb img {
-  width: 100%;
+  width: 70%;
 }
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay {
   position: absolute;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  left: 0;
+  left: 15%;
   bottom: 0;
   background: rgba(5, 196, 154, 0.5);
   -webkit-transition: 0.3s;
