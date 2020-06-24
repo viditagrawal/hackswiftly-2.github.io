@@ -33,7 +33,7 @@ if(menu.length){
 $('.slider_active').owlCarousel({
   loop:true,
 
-items:1,
+items:2,
 autoplay:true,
 navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
   nav:false,
@@ -50,7 +50,7 @@ autoplaySpeed: 800,
           dots:false
       },
       992:{
-          items:1
+          items:2
       }
   }
 });
@@ -66,7 +66,10 @@ navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
 dots:true,
 center:false,
 autoplayHoverPause: true,
-smartSpeed:1000
+smartSpeed:1000,
+ touchDrag: false,
+ mouseDrag: false,
+ pullDrag:false
   
 });
 
@@ -75,7 +78,43 @@ $('#clock').countdown('2019/12/21', function(event) {
   $(this).html(event.strftime('<div class="countdown_time"><div class="single_countdown"><h3>%D</h3><span>days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'));
 });
 
-
+$('.speakers_active').owlCarousel({
+  loop:true,
+  margin:0,
+items:1,
+autoplay:true,
+navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+  nav:false,
+dots:false,
+autoplayHoverPause: true,
+autoplaySpeed: 800,
+touchDrag: false,
+ mouseDrag: false,
+ pullDrag: false,
+  responsive:{
+      0:{
+          items:2,
+          dots:false,
+          nav:false,
+      },
+      767:{
+          items:3,
+          dots:false,
+          nav:false,
+      },
+      992:{
+          items:3,
+          nav:false
+      },
+      1200:{
+          items:3,
+          nav:false
+      },
+      1500:{
+          items:3
+      }
+  }
+});
 
 
 // for filter

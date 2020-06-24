@@ -356,6 +356,8 @@ h3 {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
+  transition-timing-function: linear!important;
+
 }
 
 /* line 212, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
@@ -869,13 +871,18 @@ h3 {
   .header-area .main-header-area .logo-img a img{
 
 
-    width:200px;
+    width:275px;
     text-align: center;
   }
   .header-area .main-header-area.sticky .logo-img a img{
     text-align:center;
-    width:200px;
+    width:275px;
   }
+  .header-area .main-header-area .main-menu ul li a {
+    padding: 15px 3px 15px 3px;
+    font-size: 42px;
+  }
+
 }
 
 @media (min-width: 1920px) and (max-width: 2559px) {
@@ -2081,6 +2088,26 @@ h3 {
 .brand_area .brand_active .single_brand:hover img {
   filter: contrast(1);
 }
+.brand_area .speakers_active .single_brand {
+  text-align: center;
+  cursor: e-resize;
+}
+
+/* line 47, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
+.brand_area .speakers_active .single_brand img {
+  width: auto;
+  display: inline-block;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
+.brand_area .speakers_active .single_brand:hover img {
+  filter: contrast(1);
+}
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
 .faq_area {
@@ -2333,6 +2360,7 @@ h3 {
   transform: rotate(180deg);
  border: 13px solid #05C49A;
   color: #05C49A;
+  margin-top: 100px;
   }
 }
 
