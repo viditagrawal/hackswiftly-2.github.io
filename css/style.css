@@ -1913,16 +1913,45 @@ h3 {
 }
 
 /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-.speakers_area .single_speaker .speaker_thumb img {
-  width: 70%;
+.speakers_area .single_speaker .speaker_thumb .imgNormal {
+  width: 80%;
+}
+.presImage{
+  width: 30%;
+}
+
+
+@media (max-width: 574px) {
+  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .presImage {
+    width: 80%;
+  }
+}
+
+.presHover{
+  width:30%;
+  left: 35%; 
+  height: 100%;  
+}
+
+@media (max-width: 574px) {
+  /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
+  .presHover {
+    width: 80%;
+    height: 100%;
+    left: 10%;
+  }
+}
+
+.normalHover{
+  width: 80%;
+  height: 100%;
+  left: 10%;
 }
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area .single_speaker .speaker_thumb .hover_overlay {
   position: absolute;
-  width: 70%;
-  height: 100%;
-  left: 15%;
   bottom: 0;
   background: rgba(5, 196, 154, 0.5);
   -webkit-transition: 0.3s;
@@ -2432,6 +2461,8 @@ h3 {
   font-weight: 500;
   color: #FF0000;
 }
+
+
 
 @media (max-width: 767px) {
   /* line 60, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_event.scss */
