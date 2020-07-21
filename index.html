@@ -28,7 +28,83 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <style type="text/css">
+
+
+            body {
+
+                color: black;
+                font: normal 12px 'Open Sans', sans-serif;
+                margin-top: 20px;
+            }
+
+            ul.countdown {
+                list-style: none;
+                margin: 75px 0;
+                padding: 0;
+                display: block;
+                text-align: center;
+            }
+
+            ul.countdown li {
+                display: inline-block;
+            }
+
+            ul.countdown li span {
+                font-size: 80px;
+                font-weight: 300;
+                line-height: 80px;
+                color:#05C49A;
+            }
+
+            ul.countdown li.seperator {
+                font-size: 80px;
+                line-height: 70px;
+                vertical-align: top;
+            }
+
+            ul.countdown li p {
+                color: #a7abb1;
+                font-size: 14px;
+            }
+
+            a {
+                color: #76949F;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            
+
+            .btn {
+                background: #f56c4c;
+                margin: 40px auto;
+                padding: 12px;
+                display: block;
+                width: 100px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-decoration: none;
+                -webkit-border-radius: 2px;
+                   -moz-border-radius: 2px;
+                        border-radius: 2px;
+            }
+
+            .btn:hover {
+                text-decoration: none;
+                opacity: .7;
+            }
+     </style>
+
 </head>
+
+
+
 
 <body>
     <!--[if lte IE 9]>
@@ -76,6 +152,31 @@
                                         <li><a href="#speakers">speakers</a></li>
                                         <li><a href="#sponsors">sponsors</a></li>
                                         <li><a href="#team">team</a></li>
+                                        <li id="closeButton" ><img style = "width: 50px;" src="img/blackwhite.png" alt="*"  /></li>
+
+                                       <script type="text/javascript">
+                                           window.onload = function() {
+                                              document.getElementById("closeButton").onclick = function() {
+                                                 if(document.body.style.backgroundColor === compareHex("#363f48"))
+                                                 {
+                                                    console.log("hi");
+                                                    document.body.style.backgroundColor = "white";
+                                                 }
+                                                 else
+                                                 {
+                                                    console.log("hi");
+                                                    document.body.style.backgroundColor = "#363f48";
+                                                 }
+                                              };
+                                           };
+
+                                           var compareHex = (hex) => {
+                                                var hexString = document.createElement('div')
+                                                hexString.style.backgroundColor = `${hex}`
+                                                return hexString.style.backgroundColor
+                                            }
+                                        </script>
+
 
 
                                     </ul>
@@ -84,7 +185,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                             <div class="buy_ticket">
-                                <a href="#" class="boxed-btn-white" style= "">sign ups open soon</a>
+                                <a href="https://form.typeform.com/to/A0Lka5UU" data-mode="popup" class=" typeform-share boxed-btn-white" style= "">sign up now!</a>
                             </div>
                         </div>
                         <div class="col-12">
@@ -110,7 +211,8 @@
  -->
                                 <h3 style = "margin-bottom: 10px;">hackswiftly II </h3>
                                 <h3 style = "font-size:30px;">inspiring students to incite change with computer science</h3>
-                                <a href="#" class="boxed-btn-white">early august</a>
+
+                                <a href="#" class="boxed-btn-white">august 15-16</a>
                                 <a href="http://hs1.hackswiftly.org" class="boxed-btn-white">hackswiftly I website</a>
                             </div>
                         </div>
@@ -119,30 +221,56 @@
             </div>
         </div>
 
-        <div class="countDOwn_area">
+        <!-- <div class="countdown">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="single_date">
-                            <i class="ti-location-pin"></i>
-                            <span>City Hall, New York City</span>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="single_date">
-                            <i class="ti-alarm-clock"></i>
-                            <span>12-15 Sep 2019</span>
-                        </div>
-                    </div>
+                 
 
-                    <div class="col-xl-5 col-md-12 col-lg-5">
-                        <span id="clock"></span>
+                    <div style = "margin-top: 20px; color:black;" class="col-xl-5 col-md-12 col-lg-5">
+                        <span style = "color:black" id="clock"></span>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </div> -->
+        <ul class="countdown">
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.downCount.js"></script>
+
+    <script type="text/javascript">
+                $('.countdown').downCount({
+                    date: '08/15/2020 10:00:00',
+                    offset: -7
+                }, function () {
+                    
+                });
+            </script>
+           
+
+            <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
     </div>
+
     <!-- slider_area_end -->
    <div class="event_area" >
         <h1  class="vr_text" style = "margin-top: 100px;" >schedule</h1>
@@ -171,23 +299,16 @@
                         </div>
                         <div class="table-row " >
                             <div class="serial">01</div>
-                            <div class="date">June 29th</div>
-                            <div class="time">10:30 AM</div>
-                            <div class="event">Sign Ups Open
-                            </div>
-                        </div>
-                        <div class="table-row " >
-                            <div class="serial">02</div>
-                            <div class="date">July 4th</div>
-                            <div class="time">12:00 PM</div>
+                            <div class="date">August 11th</div>
+                            <div class="time">11:59 PM</div>
                             <div class="event">Sign Ups Close
                             </div>
                         </div>
                         <div class="table-row " >
-                            <div class="serial">03</div>
-                            <div class="date">July 18th</div>
-                            <div class="time">12:00 PM</div>
-                            <div class="event">Theme is Revealed
+                            <div class="serial">02</div>
+                            <div class="date">August 14th</div>
+                            <div class="time">11:59 PM</div>
+                            <div class="event">All categories are posted on Devpost
                             </div>
                         </div>
                     </div>
@@ -203,12 +324,20 @@
                             <div class="event">Event</div>
                         </div>
                        <div class="table-row " >
-                            <div class="serial">04</div>
-                            <div class="date">July 20th</div>
-                            <div class="time">10:30 AM</div>
-                            <div class="event">Coding Starts
+                            <div class="serial">01</div>
+                            <div class="date">August 15th</div>
+                            <div class="time">10.00 AM</div>
+                            <div class="event">Opening Ceremony
                             </div>
                         </div>
+                        <div class="table-row " >
+                            <div class="serial">02</div>
+                            <div class="date">August 15th</div>
+                            <div class="time">10.00 AM</div>
+                            <div class="event">In depth Schedule TBA
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="progress-table-wrap" data-aos="fade-up" data-aos-duration="750">
@@ -223,25 +352,13 @@
                         </div>
                         <div class="table-row " >
                             <div class="serial">01</div>
-                            <div class="date">June 29th</div>
-                            <div class="time">10:30 AM</div>
-                            <div class="event">Sign Ups Open
+                            <div class="date">After August 16th</div>
+                            <div class="time"></div>
+                            <div class="event">Receive Swag
                             </div>
                         </div>
-                        <div class="table-row " >
-                            <div class="serial">02</div>
-                            <div class="date">July 4th</div>
-                            <div class="time">12:00 PM</div>
-                            <div class="event">Sign Ups Close
-                            </div>
-                        </div>
-                        <div class="table-row " >
-                            <div class="serial">03</div>
-                            <div class="date">July 18th</div>
-                            <div class="time">12:00 PM</div>
-                            <div class="event">Theme is Revealed
-                            </div>
-                        </div>
+                        
+
                     </div>
                 </div>
             </div>
@@ -575,6 +692,13 @@
                  </div>
                  </a>
            </div> 
+           <div >
+                 <a href = "https://magoosh.com/">
+                 <div class = "zoom   col-md-2">
+                  <img data-aos="fade-up"   data-aos-duration="800" data-aos-easing="ease-in-out" class="smallSponsor" src="img/magoosh.png" class="img-responsive " alt="Image">
+                 </div>
+                 </a>
+           </div> 
 
          </div>
 
@@ -736,6 +860,7 @@
                     </div>
                 </div>
             </div>
+            
         </footer>
     <!-- footer_end -->
 
