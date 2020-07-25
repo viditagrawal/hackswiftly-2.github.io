@@ -415,6 +415,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 244, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .seperator {
+      width: 60px;
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -423,6 +424,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 244, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .seperator {
+    width: 80px;
     margin-top: 15px;
     margin-bottom: 10px;
   }
@@ -1240,6 +1242,13 @@ h3 {
     padding-top: 140px;
     padding-bottom: 30px;
   }
+
+}
+
+@media (min-width: 991px) and (max-width: 100000px) {
+  #signUp{
+    display: none;
+  }
 }
 
 /* line 18, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
@@ -1403,10 +1412,10 @@ h3 {
 
 /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text h3 {
-  font-size: 90px;
+  font-size: 130px;
   font-weight: 700;
 
-  line-height: 100px;
+  line-height: 150px;
   color: #000000;
   margin-bottom: 66px;
 
@@ -1415,8 +1424,8 @@ h3 {
 @media (max-width: 767px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 50px;
+    line-height: 58px;
     margin-bottom: 30px;
   }
 }
@@ -1424,8 +1433,8 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
-    font-size: 46px;
-    line-height: 55px;
+    font-size: 70px;
+    line-height: 80px;
     margin-bottom: 30px;
   }
 }
@@ -1433,11 +1442,42 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .slider_area .title_text h3 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 100px;
+    line-height: 110px;
     margin-bottom: 20px;
   }
 }
+
+
+
+/* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+#countDown {
+  font-size: 110px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  #countDown {
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+ #countDown {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  #countDown {
+    font-size: 90px;
+  }
+}
+
+
 
 /* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .single_date {
