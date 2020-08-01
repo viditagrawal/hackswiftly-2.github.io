@@ -87,7 +87,8 @@ navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
   nav:false,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoPlayTimeOut: 0,
+autoPlay:0,
 touchDrag: false,
  mouseDrag: false,
  pullDrag: false,
@@ -103,15 +104,15 @@ touchDrag: false,
           nav:false,
       },
       992:{
-          items:3,
+          items:4,
           nav:false
       },
       1200:{
-          items:3,
+          items:5,
           nav:false
       },
       1500:{
-          items:3
+          items:6
       }
   }
 });
